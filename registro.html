@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Cadastro - SGA</title>
+  <link rel="stylesheet" href="src/css/common.css">
+  <link rel="stylesheet" href="src/css/cadastro_usuario.css">
+</head>
+<body>
+  
+<header class="site-header">
+  <div class="brand"><img src="src/img/logo.svg" alt="logo"><span>SGA Ambulâncias</span></div>
+  <nav class="site-nav">
+    <a href="base.html">Início</a>
+    <a href="login.html">Iniciar Sessão</a>
+    <a href="gerenciar_viagens.html">Gerenciar Viagens</a>
+    <a href="saiba_mais.html">Saiba Mais</a>
+  </nav>
+</header>
+
+  <main>
+  
+<div class="cadastro-page">
+  <div class="cadastro card">
+    <h1>Cadastro</h1>
+    <p>Preencha os campos abaixo para se cadastrar:</p>
+    <form method="POST" action="#">
+      <div class="form-group">
+        <label>Nome completo</label>
+        <input type="text" name="nome" placeholder="Nome completo" required>
+      </div>
+      <div class="form-group">
+        <label>CPF</label>
+        <input type="text" name="cpf" placeholder="CPF" maxlength="11" required>
+      </div>
+      <div class="form-group">
+        <label>Data de nascimento</label>
+        <input type="date" name="data_nascimento" required>
+      </div>
+      <div class="form-group">
+        <label>E-mail</label>
+        <input type="email" name="email" placeholder="E-mail" required>
+      </div>
+      <div class="form-group">
+        <label>Telefone</label>
+        <input type="tel" name="telefone" placeholder="Telefone de Contato" maxlength="11" required>
+      </div>
+      <div class="form-group">
+        <label>Senha</label>
+        <input type="password" name="senha" placeholder="Senha" required>
+      </div>
+      <button class="btn" type="submit">Cadastrar</button>
+    </form>
+  </div>
+</div>
+        
+  </main>
+  
+<footer class="site-footer">
+  <div class="container">
+    <small>© SGA Ambulâncias - Projeto TCC 2025</small>
+  </div>
+</footer>
+
+</body>
+</html>
