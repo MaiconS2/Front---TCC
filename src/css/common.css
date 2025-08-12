@@ -130,7 +130,7 @@ header.site-header {
   z-index: 20;
 }
 
-.brand {
+.logo {
   display: flex;
   align-items: center;
   gap: 0.75rem;
@@ -138,7 +138,7 @@ header.site-header {
   font-weight: 700;
 }
 
-.brand img {
+.logo img {
   height: 36px;
   border-radius: 6px;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
