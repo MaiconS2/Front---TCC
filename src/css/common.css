@@ -119,7 +119,7 @@ textarea {
 }
 
 /* header / nav */
-header.site-header {
+.header{
   background: transparent;
   padding: 1rem 2rem;
   display: flex;
@@ -144,18 +144,21 @@ header.site-header {
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
 }
 
-nav.site-nav a {
+.site-nav a {
   margin-left: 1rem;
   color: #e9eefb;
   font-weight: 600;
 }
 
-footer.site-footer {
+.footer {
   padding: 1.5rem 2rem;
   background: transparent;
   color: #fff;
   text-align: center;
   margin-top: 2rem;
+  bottom: 0;
+  position: fixed;
+  width: 90%;
 }
 
 /* Auxiliares responsivos para layout dividido do login */
@@ -177,12 +180,12 @@ footer.site-footer {
     padding: 1rem;
   }
 
-  nav.site-nav {
+  .site-nav {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
   }
-  nav.site-nav a {
+  .site-nav a {
     margin: 0;
     text-align: center;
   }
