@@ -58,3 +58,31 @@ body {
     font-size: .9rem;
     color: #444
 }
+
+@media (max-width: 768px) {
+    .main-wrap {
+        flex-direction: column
+    }
+
+    .esq,
+    .dir {
+        flex: none;
+        width: 100%;
+        padding: 2rem 1rem
+    }
+
+    .esq {
+        order: 2;
+        text-align: center
+    }
+
+    .dir {
+        order: 1;
+        padding-top: 1rem;
+        padding-bottom: 2rem
+    }
+
+    .login.card {
+        width: 100%
+    }
+}
